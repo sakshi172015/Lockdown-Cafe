@@ -1,0 +1,473 @@
+body {
+    background-color: white;
+}
+
+.container .jumbotron {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+    align-items: center;
+    align-content: center;
+  }
+
+.jumbotron{
+    background-color: white;
+}
+img {
+    display: contents;
+}
+
+#header-nav {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0;
+}
+
+
+.navbar-brand h1 {
+    font-family: 'Signika', serif;
+    color: #921457;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    text-decoration-color: #921457;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #921457;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color: #f6b319;
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  #phone div { /* We Deliver */
+    color: #921457;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+#call-btn > a{
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+}
+#xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+#menu-tile, #special-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8, #menu9, #menu10, #menu11, #menu12, #menu13, #menu14, #menu15 {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#sp-menu1, #sp-menu2, #sp-menu3, #sp-menu4, #sp-menu5, #sp-menu6, #sp-menu7, #sp-menu8, #sp-menu9, #sp-menu10, #sp-menu11, #sp-menu12, #sp-menu13, #sp-menu14, #sp-menu15 {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#middle-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  align-self: center;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+#line {
+  font-size: 40px ;
+  text-align: center;  
+  height: 250px;
+  width: 100%;
+  align-self: center;
+  font-family: 'Lemonada', cursive; 
+  color: #921457;
+
+}
+
+
+#menu-tile {
+    background: url('../images/img-menu-tile.jpg') no-repeat;
+    background-position: 'center';
+}
+
+#special-tile {
+  background: url('../images/img-special-tile.jpg') no-repeat;
+  background-position: 'center';
+}
+
+#menu-tile span, #special-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #935c5c;
+    border-top: 0;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+  }
+  #hours, #address, #social {
+    line-height: 2;
+  }
+  #hours > span, #address > span, #social > span {
+    font-size: 1.3em;
+  }
+  #address {
+      color: #fff;
+  }
+  #hours {
+      color: #fff;
+  }
+  #address p {
+    color: #f6b319;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  #social {
+    color: #fff;
+  }
+  #review-content{
+    text-align: center;
+    justify-content: center;
+  }
+  #review-title {
+    font-family: 'Lobster', cursive;    
+    font-size: xx-large;
+  }
+  #review{
+    color: #921457;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+ .text-center {
+     color: #fff;
+ }
+ #review-content {
+   background-color: #eae7de;
+   height: 500px;
+   padding: 0;
+   display: flex;
+ }
+
+ #review-div {
+   width: 600px;
+ }
+ #design_img {
+  transform: rotate(180deg);
+ }
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+        .navbar-brand h1 {
+            font-size: 4em;
+        }
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand h1 {
+        font-size: 4em;
+    }
+
+    #nav-list {
+        margin-top: 40px;
+    }
+  }
+/********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand h1 {
+        font-size: 2em;
+    }
+
+    #nav-list {
+        margin-top: 30px;
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+      }
+      #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+      }
+      .container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+      }
+      #menu-tile, #special-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+      }
+      #review-div{ 
+        width: 500px;
+      }
+
+      /***********/
+      #menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8, #menu9, #menu10, #menu11, #menu12, #menu13, #menu14, #menu15 {
+        width: 360px;
+        margin: 0 auto 15px;
+      }
+      #sp-menu1, #sp-menu2, #sp-menu3, #sp-menu4, #sp-menu5, #sp-menu6, #sp-menu7, #sp-menu8, #sp-menu9, #sp-menu10, #sp-menu11, #sp-menu12, #sp-menu13, #sp-menu14, #sp-menu15 {
+        width: 360px;
+        margin: 0 auto 15px;
+      }
+     
+}
+
+/********** Super extra small devices Only :)***********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  #review-content {
+    height: 600px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  #review-div{ 
+    width: 400px;
+  }
+  #menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8, #menu9, #menu10, #menu11, #menu12, #menu13, #menu14, #menu15 {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  #sp-menu1, #sp-menu2, #sp-menu3, #sp-menu4, #sp-menu5, #sp-menu6, #sp-menu7, #sp-menu8, #sp-menu9, #sp-menu10, #sp-menu11, #sp-menu12, #sp-menu13, #sp-menu14, #sp-menu15 {
+    width: 280px;
+    margin: 0 auto 15px;
+  } 
+}
+
+/******************/
+
+
+#menu1 span,#menu2 span, #menu3 span, #menu4 span, #menu5 span, #menu6 span, #menu7 span, #menu8 span, #menu9 span, #menu10 span, #menu11 span, #menu12 span, #menu13 span, #menu14 span, #menu15 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#sp-menu1 span,#sp-menu2 span, #sp-menu3 span, #sp-menu4 span, #sp-menu5 span, #sp-menu6 span, #sp-menu7 span, #sp-menu8 span, #sp-menu9 span, #sp-menu10 span, #sp-menu11 span, #sp-menu12 span, #sp-menu13 span, #sp-menu14 span, #sp-menu15 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#menu1 {
+  background: url('../images/1.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu2 {
+  background: url('../images/3.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu3 {
+  background: url('../images/34.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu4 {
+  background: url('../images/8.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu5 {
+  background: url('../images/10.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu6 {
+  background: url('../images/13.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu7 {
+  background: url('../images/15.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu8 {
+  background: url('../images/18.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu9 {
+  background: url('../images/19.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu10 {
+  background: url('../images/20.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu11 {
+  background: url('../images/25.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu12 {
+  background: url('../images/26.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu13 {
+  background: url('../images/28.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu14 {
+  background: url('../images/30.jpg') no-repeat;
+  background-position: 'center';
+}
+#menu15 {
+  background: url('../images/31.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu1{
+  background: url('../images/33.jpg')no-repeat;
+  background-position: 'center';
+}
+
+#sp-menu2{
+  background: url('../images/2.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu3{
+  background: url('../images/22.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu4{
+  background: url('../images/9.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu5{
+  background: url('../images/35.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu6{
+  background: url('../images/21.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu7{
+  background: url('../images/6.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu8{
+  background: url('../images/7.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu9{
+  background: url('../images/24.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu10{
+  background: url('../images/27.jpg') no-repeat;
+  background-position: 'center';
+}
+#sp-menu11{
+  background: url('../images/32.jpg') no-repeat;
+  background-position: 'center';
+}
+#space{
+  height: 50px;
+}
