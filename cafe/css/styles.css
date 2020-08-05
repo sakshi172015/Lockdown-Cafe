@@ -279,7 +279,11 @@ img {
         margin: 0 auto 15px;
       }
       #review-div{ 
-        width: 500px;
+        width: 400px;
+      }
+
+      #review-content {
+        height: 650px;
       }
 
       /***********/
@@ -304,7 +308,7 @@ img {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  #menu-tile, #special-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
